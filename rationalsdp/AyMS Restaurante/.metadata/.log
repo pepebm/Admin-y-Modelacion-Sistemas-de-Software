@@ -1,0 +1,60 @@
+
+!ENTRY org.eclipse.core.net 1 0 2016-10-17 15:57:20.040
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-10-17 15:57:21.145
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-17 15:57:21.145
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(com.ibm.ccl.soa.deploy.core.ui.openRequirementsPropertyFlyout,Menú flotante de requerimientos,
+		Menú flotante de requerimientos,
+		Category(com.ibm.ccl.soa.deploy.core.ui.zephyr.commands,Editor de modelos de definición de topología,Mandatos para editor de diálogos emergentes rápidos,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f283b8f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Redenominar - refactorización ,
+		Redenominar el elemento seleccionado,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactorizar - Java,Acciones de refactorizar Java,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f953e51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-17 15:57:21.145
+!MESSAGE A conflict occurred for ALT+COMMAND+I:
+Binding(ALT+COMMAND+I,
+	ParameterizedCommand(Command(com.ibm.ccl.soa.deploy.core.ui.openQuickFixDialog,Diálogo Arreglo rápido,
+		Abrir diálogo Arreglo rápido,
+		Category(com.ibm.ccl.soa.deploy.core.ui.zephyr.commands,Editor de modelos de definición de topología,Mandatos para editor de diálogos emergentes rápidos,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b0a6c53,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.inline,Incorporar,
+		Incorporar una constante, una variable local o un método,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactorizar - Java,Acciones de refactorizar Java,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15beb40b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-17 15:57:21.145
+!MESSAGE A conflict occurred for ALT+COMMAND+C:
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copiar resultado,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,Vista Resultados de SQL,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bc41170,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.modify.method.parameters,Cambiar firma de método,
+		Cambiar la firma del método incluye los nombres y el orden de los parámetros,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactorizar - Java,Acciones de refactorizar Java,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d95c3ef,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
